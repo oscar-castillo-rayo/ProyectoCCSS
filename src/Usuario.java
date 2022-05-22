@@ -4,7 +4,7 @@ public class Usuario {
     private int edad;
     private String direccion;
      //Constructor de los datos del usuario
-    public Usuario(String nombre, int numeroCCSS, int edad, String direccion) {
+    public Usuario(int numeroCCSS, String nombre,  int edad, String direccion) {
         this.nombre = nombre;
         this.numeroCCSS = numeroCCSS;
         this.edad = edad;
